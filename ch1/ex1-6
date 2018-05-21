@@ -1,0 +1,1 @@
+new-if uses applicative order evaluation, meaning the else clause is called recursively regardless of the state of the predicate

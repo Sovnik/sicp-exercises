@@ -1,0 +1,9 @@
+Applicative-order evaluation will recursively try to expand (p), which can not be expanded beyond itself
+(if (= 0 0) 0 (p))
+(p) = (p)
+...
+
+Normal-order evaluation evaluates subexpressions first, deferring argument values until they are needed for comparison.
+(if (= 0 0) 0 (p))
+(= 0 0) = #t
+0

@@ -1,0 +1,3 @@
+The procedure adds a given value a with the absolute value of a second given value, b.
+b is compared to 0. If b is positive (> 0), it is simply added to a. If b is negative, it is subtracted,
+causing a double negative so a positive value of b is instead added to a.
